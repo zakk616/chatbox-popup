@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Toggle Button</title>
+  </head>
+  <body>
+    <div id="body">
+      <div id="chat-circle" class="btn btn-raised">
+        <i class="material-icons">edit</i>
+        <span
+          class="badge rounded-pill bg-warning text-dark position-absolute translate-middle"
+          >10</span
+        >
+      </div>
+
+      <div class="chat-box">
+        <div class="chat-box-header">
+          Annotations
+          <span class="chat-box-toggle"
+            ><i class="material-icons">close</i></span
+          >
+        </div>
+        <div class="chat-box-body">
+          <div class="chat-logs">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Annotators</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Muhammad Saufian</td>
+                  <td>
+                    <input
+                      class="tgl tgl-skewed"
+                      id="cb3"
+                      type="checkbox"
+                    /><label
+                      class="tgl-btn"
+                      data-tg-on="Show"
+                      data-tg-off="Hide"
+                      for="cb3"
+                    ></label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Rizwan Ali Tiwyana</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>Larry</td>
+                  <td>@twitter</td>
+                </tr>
+                <tr>
+                  <td>Mark</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Jacob</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>Larry</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
