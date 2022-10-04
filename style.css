@@ -202,3 +202,10 @@ body {
 .tgl-skewed:checked + .tgl-btn:active:after {
   left: 10%;
 }
+
+
+.table th, .table td{
+  padding: 2px 0px 2px 20px !important;
+  vertical-align:middle !important;
+  border-top: none !important;
+}
